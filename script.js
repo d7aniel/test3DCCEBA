@@ -12,7 +12,7 @@ function inicializar() {
     mundo.crearOrbitControl();
 
     var loader = new GLTFLoader();
-    loader.load( 'modelo/modelo2.glb', function ( gltf ) {
+    loader.load( 'modelo/modelo.glb', function ( gltf ) {
         gltf.scene.scale.x = 1.5;
         gltf.scene.scale.y = 1.5;
         gltf.scene.scale.z = 1.5;
